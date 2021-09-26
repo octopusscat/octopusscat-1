@@ -1,120 +1,27 @@
-<!DOCTYPE html>
-<!DOCTYPE html>
-<html>
-<head>
-<title>octopusscat sept-2021</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"
-charset="UTF-8">
-
-<style> <!--stylaer olika element-->
-/* unvisited link */
-a:link {
-  color: #F87609;
-}
-
-/* visited link */
-a:visited {
-  color: #09F876;
-}
-
-/* mouse over link */
-a:hover {
-  color: #8BF809;
-}
-
-/* selected link */
-a:active {
-  color: #7609F8;
-}
-
-
-body {
-  align-items: center;
-  background-color: #404B69; <!--här vill vi nog lägga in en bakgrundsbild istället-->
-}
-.cover-img {
-  background-image: url("https://images.unsplash.com/photo-1616138276663-5041438a8476?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
-  background-color: #cccccc;
-  background-image: rgba (0, 0, 0, 0.05);
-  height: 600px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-
-
-div {
-  margin: auto;
-  text-indent: 10px;
-  text-align: left;
-  letter-spacing: 3px;
-}
-.cover-txt {
-  text-align: center;
-  position: relative;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #F5F9E9;
-}
-<!-- , #F5F9E9, #FFB5C2, #DBEDF3, #8B5FBF, #8B786D, #404B69,-->
-
-.container {
-  display: block;
-  margin: auto;
-  max-width: 350px;
-  margin: auto;
-  padding: 50px;
-  background-color: #DBEDF3;
-}
-
-button {
-  display: block;
-  margin: auto;
-  width: 33%;
-  color: #1f1f1f;
-  background-color: #DBEDF3;
-    border: 10px;
-  border: center;
-  text-align: center;
-  border: 3px #404B69;
-  border-radius: 5px;
-  }
-
-
-<script><!--an example of a simple js-function and placing the script inside the html - head -->
-function myFunction() <!--declaring the function by naming it
-and assigning value to its element-->
-{document.getElementById("demo").innerHTML = "Hi! Get SEK 100 off your first order at Uber Eats and I’ll get something too. Use eats-g2y0kmb3i5 at checkout. 🎁🌮🍕🍜 https://ubr.to/EatsGiveGet";
-style.fontSize = "15px"; 
-style.color = "solidgrey";
-}
-</script>
-</style>
-</head>
-
-	<div class="cover-img">
-		<div class="cover-txt">
-			<h3>introduction to</h3>
-<h1>HYBRYD APPLIKATION DEVELOPMENT</h1>
-
-<nav>    
+  <html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin">
+	<link href="{{ 'assets/css/style.css' | relative_url }}" rel="stylesheet">
+  	<link rel="stylesheet" href="m2mba.css">
+  	<link rel="stylesheet" href="m2mba.js">
+  	<link rel="stylesheet" href="m2mba.html">
+  </head>
+  <title>my intro project page</title>
+    <header>Hosted with GitHub Pages</header>
+    <h1>INTRODUCTION TO APP DEVELOPMENT</h1>
+  
+    <nav>
     <ul>
+    <li><a href="#githubpages">GitHub Pages</a></li>
     <li><a href="#html"> HTML </a></li>
     <li><a href="#css"> CSS </a></li>
     <li><a href="#javascript"> JavaScript </a></li>
-    <li><a href="#githubpages">GitHub Pages</a></li>
     </ul>
     </nav>
-</div>
-
-</div>
-
-<body>
-
-	
+  
+    <body>
+	    
 <div class="container">
 
   <p id="button"></p>
@@ -125,9 +32,9 @@ style.color = "solidgrey";
   <button type="button" onclick="document.getElementById('demo').style.display='block'">Hungry?</button>
 
 </div>
+      <canvas class="background"></canvas>
+  <script src="/src/particles.min.js"></script>
+  
+  </body>
+  </html>
 
-<canvas class="background"></canvas>
-<script src="/src/particles.min.js"></script>
-<footer>Hosted with GitHub Pages <3</footer>
-</body>
-</html>
