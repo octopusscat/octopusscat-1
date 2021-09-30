@@ -1,40 +1,149 @@
-  <html>
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin">
-	<link href="{{ 'assets/css/style.css' | relative_url }}" rel="stylesheet">
-  	<link rel="stylesheet" href="m2mba.css">
-  	<link rel="stylesheet" href="m2mba.js">
-  	<link rel="stylesheet" href="m2mba.html">
-  </head>
-  <title>my intro project page</title>
-    <header>Hosted with GitHub Pages</header>
-    <h1>INTRODUCTION TO APP DEVELOPMENT</h1>
-  
-    <nav>
-    <ul>
-    <li><a href="#githubpages">GitHub Pages</a></li>
-    <li><a href="#html"> HTML </a></li>
-    <li><a href="#css"> CSS </a></li>
-    <li><a href="#javascript"> JavaScript </a></li>
-    </ul>
-    </nav>
-  
-    <body>
-	    
+<!DOCTYPE html>
+<html>
+<head>
+<title>octopusscat sept-2021</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+charset="UTF-8">
+
+<style> 
+
+body {
+  background-color: #404B69; 
+}
+
+.sidenav {
+  display: block;
+  text-align: left;
+  margin: auto;
+  background-position: fixed;
+  width: 0;
+  position: fixed;
+  overflow: hidden;
+  transition: 0.3s;
+  color: #F5F9E9;
+  background-color: #404B69;
+}
+
+.sidenav a { 
+display: block;
+  float: left;
+  width: 280px;
+  text-align: center;
+  background-position: fixed;
+  transition: all 0.3s ease;
+  color: #F5F9E9;
+  font-size: 24px;
+  position: relative;
+  background-color: #404B69;
+}
+
+.sidenav a:hover, .dropdown:hover .dropbtn {
+background-color: #8BF809;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.cover-img {
+  background-image: url("https://images.unsplash.com/photo-1539683255143-73a6b838b106?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1585&q=80");
+  height: 1200px;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.cover-txt {
+  text-align: left;
+  margin: 2px;
+  background-position: fixed;
+  text-indent: 2px;
+  letter-spacing: 4px;
+  position: fixed;
+  color: #F5F9E9;
+}
+
+<!-- , #F5F9E9, #FFB5C2, #DBEDF3, #8B5FBF, #8B786D, #404B69,-->
+
+.container {
+  display: block;
+  margin: auto;
+  max-width: 350px;
+  padding: 50px;
+  background-color: #DBEDF3;
+}
+
+button {
+  display: block;
+  margin: auto;
+  width: 33%;
+  color: #1f1f1f;
+  background-color: #DBEDF3;
+  border: 10px;
+  border: center;
+  text-align: center;
+  border: 3px #404B69;
+  border-radius: 3px;
+  }
+
+<script><!--an example of a simple js-function and placing the script inside the html - head -->
+function myFunction() <!--declaring the function by naming it
+and assigning value to its element-->
+{document.getElementById("demo").innerHTML = "Hi! Get SEK 100 off your first order at Uber Eats and I’ll get something too. Use eats-g2y0kmb3i5 at checkout. 🎁🌮🍕🍜 https://ubr.to/EatsGiveGet";
+style.fontSize = "15px"; 
+style.color = "solidgrey";
+}
+</script>
+</style>
+</head>
+<body>
+<div class="cover-img">
+	<div class="cover-txt">
+<h6>INTRODUCTION to HYBRYD APPLIKATION DEVELOPMENT</h6>
+	
+	
+<div id="SideNav" class="sidenav">
+	<a href="javascript:void(0)" class="sidenav" onclick="closeNav()"> ✖︎ </a>
+  <a href="#">Home</a>
+  <a href="#">Hybrid Development</a>
+  <a href="#">Native vs Hybrid</a>
+  <a href="#">Git</a>
+</div>
+
+<span style="font-size: 30px; cursor: pointer; color: #8BF809; background-color: #404B69;" onclick="openNav()"> &#9776; </span> 
+</div>
+<script>
+function openNav() {
+  document.getElementById("SideNav").style.width = "280px";
+}
+
+function closeNav() {
+  document.getElementById("SideNav").style.width = "0";
+}
+</script>
+</div>
+
 <div class="container">
-
-  <p id="button"></p>
-
+ <p id="button"></p>
   <p id="demo" style="display:none">Hi!
     Get SEK 100 off your first order a Uber Eats and I’ll get something too. <br>Use eats-g2y0kmb3i5 at checkout. 🎁🌮🍕🍜 https://ubr.to/EatsGiveGet</p>
 
   <button type="button" onclick="document.getElementById('demo').style.display='block'">Hungry?</button>
-
 </div>
-      <canvas class="background"></canvas>
-  <script src="/src/particles.min.js"></script>
-  
-  </body>
-  </html>
-
+</div>
+<footer>Hosted with GitHub Pages <3</footer>
+</body>
+</html>
