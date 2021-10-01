@@ -1,4 +1,7 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Pages ![image](https://user-images.githubusercontent.com/91368251/135580167-0c2ed13a-8378-4c79-98b3-4c9a9a9be31e.png)
+
+![Uploading image.png…]()
+
 
 You can use the [editor on GitHub](https://github.com/octopusscat/sept-2021/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
